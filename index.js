@@ -48,7 +48,7 @@ async function buscarEDisparar() {
         //Timeout aplicado
         setTimeout( ()=> {
             window.dispatchEvent(eventoWebhook);
-            status.innerText  = "Sucesso! Webhookenviado para o Sistema B.";
+            status.innerText  = "Sucesso! Webhook enviado para o Sistema B.";
         }, 1000);
     } catch (error) {
         //Trata falhas e erros
